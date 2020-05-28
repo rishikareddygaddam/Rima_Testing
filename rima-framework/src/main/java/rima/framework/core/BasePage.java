@@ -38,6 +38,6 @@ public class BasePage {
     }
 
     protected void waitForTextToDisappear(By locator, String text) {
-        wait.until(ExpectedConditions.not(ExpectedConditions.textToBe(locator, text)));
+        wait.until(ExpectedConditions.not(ExpectedConditions.textToBe(locator, text1)));
     }
 }
